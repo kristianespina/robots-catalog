@@ -11,7 +11,7 @@ const Button = ({ children, type, onClick }: IButton) => {
   switch (type) {
     case "primary":
       style =
-        "bg-[#3184FE] hover:bg-[#2975E4] text-white text-sm font-semibold px-8 py-2 rounded-md transition";
+        "bg-[#3184FE] hover:bg-[#2975E4] text-white text-sm font-semibold px-8 py-2 rounded-md w-fulltransition";
       break;
     case "danger":
       style =
