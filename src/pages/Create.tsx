@@ -32,9 +32,9 @@ const Create = ({ robotId }: ICreate) => {
 
   const handleSave = () => {
     // Verify input
-    if (name.length < 6)
+    if (name.length < 2)
       return toast.error(
-        "Robot's name is too short. Please name your robot with atleast 6 characters"
+        "Robot's name is too short. Please name your robot with atleast 2 characters"
       );
     if (purpose.length < 6)
       return toast.error("Please provide a short purpose for the robot");
