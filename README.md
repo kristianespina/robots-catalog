@@ -35,8 +35,9 @@ A micro web app for displaying robots
 ## Technologies Used
 
 - ReactJS
-- TailwindCSS
 - Typescript
+- Redux Toolkit
+- TailwindCSS
 - Lottie
 - Docker
 
