@@ -74,7 +74,7 @@ docker build -t bot-directory .
 ### 2. Run docker image
 
 ```bash
-docker run -dp 8000:8000 bot-directory
+docker run -dp 3000:3000 bot-directory
 ```
 
 ## Author
